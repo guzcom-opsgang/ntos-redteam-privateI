@@ -1,7 +1,7 @@
 use blake3;
 use tokio::net::{TcpListener, TcpStream};
 use tokio_tungstenite::{accept_async, tungstenite::Message};
-use futures_util::{SinkExt, StreamExt};
+use futures_util::{SinkExt, StreamExt as _};
 
 #[tokio::main]
 async fn main() {

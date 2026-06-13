@@ -4,6 +4,9 @@ version = "1.2.0"
 edition = "2021"
 
 [dependencies]
-wireguard-rs = "0.1"
+blake3 = "1.5"
+futures-util = "0.3.32"
 serialport = "4.4"
+tokio = { version = "1.52.3", features = ["full"] }
+tokio-tungstenite = "0.29.0"
 # Add rest from repo or minimal
